@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body bgcolor="yellow">
+    <center>
+        <h1>
+            Select Subject
+        </h1>
+    </center>
+    <form>
+        <input type="radio" name="sub" id=DSA>
+        <label for="Subject">DSA </label>
+        <br>
+        <br>
+        <input type="radio" name="sub" id=Java>
+        <label for="Subject">Java </label>
+        <br>
+        <br>
+        <input type="radio" name="sub" id=PCPF>
+        <label for="Subject">PCPF </label>
+        <br>
+        <br>
+        <input type="radio" name="sub" id=DBMS>
+        <label for="Subject">DBMS </label>
+        <br>
+        <br>
+        <input type="radio" name="sub" id=M4>
+        <label for="Subject">M4 </label>
+
+
+        <br>
+        <br>
+        <button type="button" onclick="display()">Next</button>
+
+    </form>
+
+    <style>
+        button {
+            margin-left: 580px;
+            font-size: larger;
+            color: black;
+            background-color: green;
+            border: black;
+        }
+
+        button:hover {
+            background-color: yellow;
+        }
+    </style>
+
+
+    <style type="text/css">
+        input[type="radio"] {
+            margin-left: 580px;
+            font-size: larger;
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
+
+
+
+</body>
+
+<script>
+    function display() {
+        if (document.getElementById("DSA").checked) {
+            window.open("https://drive.google.com/file/d/1qPeRT88-nNQm0VANHEr8JaEkJ79OBJtG/view?usp=sharing")
+        }
+        if (document.getElementById("Java").checked) {
+            window.open("https://drive.google.com/file/d/162P7-zn-aFGhQAPYvqEBR3mPJMRHuX_Y/view?usp=sharing")
+        }
+        if (document.getElementById("PCPF").checked) {
+            window.open("https://drive.google.com/file/d/1G7HbPbiccWqEbs1mCOa0S4hbstG1X590/view?usp=sharing")
+        }
+        if (document.getElementById("DBMS").checked) {
+            window.open("https://drive.google.com/file/d/15ztAaIYi1oSubAblC9hHoWbUFWb8ekCR/view?usp=sharing")
+        }
+        if (document.getElementById("M4").checked) {
+            window.open("https://drive.google.com/file/d/1zV7bJXTNG9L3l52NH8-iVB8oIVm6pyGu/view?usp=sharing")
+        }
+    }
+</script>
+
+</html>
